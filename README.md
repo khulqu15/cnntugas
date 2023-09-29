@@ -28,24 +28,74 @@ Melanoma adalah kanker kulit yang agresif dan memerlukan deteksi dini. Tujuan da
 #### Narasi:
 Metodologi melibatkan penggunaan dataset dari ISIC Archive dan arsitektur CNN yang terdiri dari lapisan konvolusional, max-pooling, dropout, dan fully-connected. Optimasi dilakukan dengan mini-batch processing.
 
-### Slide 5: Hasil Eksperimen
-- **Akurasi:** 84.76%
-- **Sensitivitas:** 91.97%
-- **Spesifisitas:** 78.71%
-- **Pengujian Epoch:** 10 epoch memberikan hasil terbaik.
+Tentu, berikut adalah tambahan 15 slide untuk membahas lebih detail mengenai metodologi dan hasil eksperimen:
+
+### Slide 5: Dataset
+- **Judul:** Dataset: ISIC Archive Repository
+- **Deskripsi:** Dataset yang digunakan berasal dari ISIC Archive Repository yang merupakan kumpulan gambar melanoma.
+  
+#### Narasi:
+Dataset yang digunakan dalam penelitian ini berasal dari ISIC Archive Repository, yang merupakan sumber terpercaya dari gambar melanoma.
+
+### Slide 6: Pra-Pemrosesan Data
+- **Judul:** Pra-Pemrosesan Data
+- **Deskripsi:** Langkah-langkah pra-pemrosesan seperti normalisasi, augmentasi, dan pembagian dataset.
 
 #### Narasi:
-Hasil eksperimen menunjukkan akurasi sebesar 84.76%, sensitivitas 91.97%, dan spesifisitas 78.71%. Pengujian menunjukkan bahwa 10 epoch adalah nilai optimal.
+Pra-pemrosesan data melibatkan beberapa langkah penting seperti normalisasi, augmentasi, dan pembagian dataset untuk mempersiapkan data sebelum pelatihan model.
 
-### Slide 6: Kesimpulan
-- **Kesimpulan:** Metode yang diusulkan menunjukkan kinerja yang menjanjikan dalam klasifikasi melanoma dan dapat dikembangkan lebih lanjut untuk aplikasi nyata.
-- **Komparasi:** Metode ini memberikan kinerja yang lebih baik dibandingkan metode sebelumnya dan dapat membantu diagnosis.
-
-#### Narasi:
-Sebagai kesimpulan, metode Deep CNN yang diusulkan memiliki kinerja yang baik dan menjanjikan untuk pengembangan lebih lanjut dan aplikasi nyata dalam membantu diagnosis melanoma.
-
-### Slide 7: Pertanyaan dan Diskusi
-- **Pertanyaan:** Apakah ada pertanyaan atau diskusi mengenai paper ini?
+### Slide 7: Arsitektur CNN
+- **Judul:** Arsitektur CNN
+- **Deskripsi:** Detail arsitektur CNN yang digunakan, termasuk jumlah lapisan, jenis lapisan, dan parameter.
 
 #### Narasi:
-Sekarang, mari kita buka sesi tanya jawab. Apakah ada pertanyaan atau diskusi mengenai paper ini?
+Arsitektur CNN yang digunakan dalam penelitian ini terdiri dari beberapa lapisan konvolusional, max-pooling, dropout, dan fully-connected, dengan parameter yang telah dioptimalkan.
+
+### Slide 8-10: Proses Pelatihan
+- **Judul:** Proses Pelatihan Model
+- **Deskripsi:** Langkah-langkah pelatihan model, optimasi, dan validasi.
+
+#### Narasi:
+Proses pelatihan model melibatkan langkah-langkah seperti feeding data, forward pass, backward pass, dan optimasi. Model juga divalidasi menggunakan data validasi untuk menghindari overfitting.
+
+### Slide 11: Optimasi dan Epoch
+- **Judul:** Optimasi dan Epoch
+- **Deskripsi:** Teknik optimasi yang digunakan dan pengaruh jumlah epoch terhadap kinerja model.
+
+#### Narasi:
+Optimasi dilakukan menggunakan algoritma tertentu dan mini-batch processing. Jumlah epoch yang optimal ditemukan melalui eksperimen, di mana 10 epoch memberikan hasil terbaik.
+
+### Slide 12-15: Evaluasi Model
+- **Judul:** Evaluasi Model
+- **Deskripsi:** Metrik evaluasi seperti akurasi, sensitivitas, dan spesifisitas. Analisis hasil evaluasi.
+
+#### Narasi:
+Evaluasi model dilakukan dengan menghitung metrik seperti akurasi, sensitivitas, dan spesifisitas. Hasil evaluasi menunjukkan bahwa model memiliki kinerja yang baik dalam klasifikasi melanoma.
+
+### Slide 16-18: Analisis Hasil
+- **Judul:** Analisis Hasil
+- **Deskripsi:** Analisis mendalam terhadap hasil eksperimen, termasuk kelebihan dan kekurangan model.
+
+#### Narasi:
+Analisis hasil melibatkan pembahasan mendalam mengenai kinerja model, kelebihan dan kekurangan, serta potensi pengembangan lebih lanjut.
+
+### Slide 19-20: Komparasi dengan Metode Lain
+- **Judul:** Komparasi dengan Metode Lain
+- **Deskripsi:** Perbandingan kinerja model dengan metode klasifikasi melanoma lainnya.
+
+#### Narasi:
+Komparasi dengan metode lain menunjukkan bahwa model Deep CNN yang diusulkan memiliki kinerja yang lebih baik dalam beberapa aspek.
+
+### Slide 21: Kesimpulan dan Saran
+- **Judul:** Kesimpulan dan Saran
+- **Deskripsi:** Kesimpulan dari hasil eksperimen dan saran untuk penelitian selanjutnya.
+
+#### Narasi:
+Sebagai kesimpulan, metode yang diusulkan menunjukkan kinerja yang menjanjikan dan memiliki potensi untuk pengembangan lebih lanjut. Saran untuk penelitian selanjutnya juga disampaikan.
+
+### Slide 22: Tanya Jawab
+- **Judul:** Sesi Tanya Jawab
+- **Deskripsi:** Sesi untuk menjawab pertanyaan dan diskusi lebih lanjut mengenai paper.
+
+#### Narasi:
+Sekarang, mari kita buka sesi tanya jawab. Apakah ada pertanyaan atau diskusi lebih lanjut mengenai paper ini?
